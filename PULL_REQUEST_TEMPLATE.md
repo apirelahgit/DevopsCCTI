@@ -18,7 +18,6 @@ Resumen del cambio y el problema que solucionó. Incluye motivo y contexto.
 
 Link to related US from Jira board
 
-https://jira.segurosbolivar.com/browse/OAFII-20
 
 ## Tipos de Cambios
 
