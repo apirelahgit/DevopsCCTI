@@ -1,11 +1,24 @@
 
-# Pull Request Template
+# Pull Request Template ("Who", What, "When-Where", Why, How)
+
+nombre: Feature Request
+acerca: Suggest a new idea for the project.
+labels: enhancement
+
+## Does this introduce a breaking change?
+
+- Yes
+- No
 
 ## Descripción
 
 Resumen del cambio y el problema que solucionó. Incluye motivo y contexto. 
 
-Número de Issues
+## Related User Stories
+
+Link to related US from Jira board
+
+https://jira.segurosbolivar.com/browse/OAFII-20
 
 ## Tipos de Cambios
 
@@ -16,6 +29,19 @@ Número de Issues
 - [ ] **fix/hotfix/patch:** corrección de un bug esperado o inesperado (i.e. links rotos)
 - [ ] **test:** agregar tests a un feature existente que no cuenta con los mismos (i.e. unit testing del componente de login)
 - [ ] **style:** Se aplicó formato, comas y puntos faltantes, etc; Sin cambios en el código.
+
+### Changes details
+
+- Detail one
+- Detail two
+  ...
+
+## Checklist antes de la revisión del request
+- [ ] I have performed a self-review of my code
+- [ ] If it is a core feature, I have added thorough tests.
+- [ ] Do we need to implement analytics? 
+- [ ] Will this be part of a product update? If yes, please write one phrase about this update.
+
 
 ## How Has This Been Tested?
 
@@ -30,6 +56,17 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 * Toolchain:
 * SDK:
 
+
+
+## Missed anything?
+
+- [ ] Explained the purpose of this PR.
+- [ ] Self reviewed the PR.
+- [ ] Added or updated test cases.
+- [ ] Informed of breaking changes, testing and migrations (if applicable).
+- [ ] Updated documentation (if applicable).
+- [ ] Attached screenshots (if applicable).
+
 ## Checklist:
 
 - [ ] My code follows the style guidelines of this project
@@ -41,3 +78,9 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules
 - [ ] I have checked my code and corrected any misspellings
+
+### Screenshots
+
+If applicable, add screenshots to help explain your problem.
+⬅️  _before_
+➡️  _after_
