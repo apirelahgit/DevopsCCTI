@@ -1,9 +1,9 @@
 
 # Pull Request Template ("Who", What, "When-Where", Why, How)
 
-nombre: Feature Request
-acerca: Suggest a new idea for the project.
-labels: enhancement
+- nombre: Feature Request
+- acerca: Suggest a new idea for the project.
+- labels: enhancement
 
 ## Does this introduce a breaking change?
 
