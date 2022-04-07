@@ -3,18 +3,18 @@
 
 - nombre: Feature Request
 - acerca: Suggest a new idea for the project.
-- labels: enhancement
+- etiquetas: enhancement
 
-## Does this introduce a breaking change?
+## El cambio genera impacto ?
 
-- Yes
-- No
+- [ ] **Si**
+- [ ] **No**
 
 ## Descripción
 
 Resumen del cambio y el problema que solucionó. Incluye motivo y contexto. 
 
-## Related User Stories
+## Relación de Historias de Usuarios
 
 Link to related US from Jira board
 
@@ -29,22 +29,21 @@ Link to related US from Jira board
 - [ ] **test:** agregar tests a un feature existente que no cuenta con los mismos (i.e. unit testing del componente de login)
 - [ ] **style:** Se aplicó formato, comas y puntos faltantes, etc; Sin cambios en el código.
 
-### Changes details
+### Detalles del Cambio
 
 - Detail one
 - Detail two
   ...
 
 ## Checklist antes de la revisión del request
-- [ ] I have performed a self-review of my code
-- [ ] If it is a core feature, I have added thorough tests.
-- [ ] Do we need to implement analytics? 
-- [ ] Will this be part of a product update? If yes, please write one phrase about this update.
+- [ ] He realiza la revisión propia de mi código.
+- [ ] Si es una función principal, he hecho pruebas exhautivas.
+- [ ] Necesitamos implementar analisis? 
+- [ ] Será una actualización del producto? En caso de ser afirmativo, Escribir un detalle de la actualización.
 
+## Como ha sido probado?
 
-## How Has This Been Tested?
-
-Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration
+Describir las pruebas que se ejecutaron para verificar los cambios. Proveer instrucciones para reproducirlas. Lista los detalles relevantes de la configuración de las pruebas.
 
 - [ ] Test A
 - [ ] Test B
@@ -57,29 +56,29 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 
 
 
-## Missed anything?
+## Falta algo?
 
-- [ ] Explained the purpose of this PR.
-- [ ] Self reviewed the PR.
-- [ ] Added or updated test cases.
-- [ ] Informed of breaking changes, testing and migrations (if applicable).
-- [ ] Updated documentation (if applicable).
-- [ ] Attached screenshots (if applicable).
+- [ ] Explicación del propósito del PR.
+- [ ] Revisión propia del PR.
+- [ ] Adición o actualización de casos de pruebas.
+- [ ] Informe del impacto del cambio, pruebas y migraciones (si aplica).
+- [ ] Actualización de la documentación (si aplica).
+- [ ] Pantallazos adjuntos (si aplica).
 
 ## Checklist:
 
-- [ ] My code follows the style guidelines of this project
-- [ ] I have performed a self-review of my own code
-- [ ] I have commented my code, particularly in hard-to-understand areas
-- [ ] I have made corresponding changes to the documentation
-- [ ] My changes generate no new warnings
-- [ ] I have added tests that prove my fix is effective or that my feature works
-- [ ] New and existing unit tests pass locally with my changes
-- [ ] Any dependent changes have been merged and published in downstream modules
-- [ ] I have checked my code and corrected any misspellings
+- [ ] Mi código sigue las pautas de estilo de este proyecto.
+- [ ] He realiza la revisión propia de mi código.
+- [ ] He comunicado mi código, hacia áreas de dificil comprensión.
+- [ ] He hecho cambios que corresponden con la documentación.
+- [ ] Mis cambios generan nuevas advertencias.
+- [ ] He agregado pruebas que comprueben la efectividad de mi arreglo o mi requerimiento funcione.
+- [ ] Nuevas y antiguas pruebas unitarias funcionan localmente con mis cambios.
+- [ ] Algun cambio dependiente ha sido fusionado o publicado en otros módulos.
+- [ ] He revisado mi código y corregido la ortografía.
 
 ### Screenshots
 
-If applicable, add screenshots to help explain your problem.
-⬅️  _before_
-➡️  _after_
+Si aplica, agregar pantallazos que ayuden a explicar el problema.
+⬅️  _antes_
+➡️  _despues_
